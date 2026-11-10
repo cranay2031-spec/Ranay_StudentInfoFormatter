@@ -1,0 +1,16 @@
+# Inputs
+first = input("Enter first name: ")
+last = input("Enter last name: ")
+section = input("Enter section: ")
+subject = input("Enter favorite subject: ")
+
+print("")
+
+# Formatted Output
+count = len(first) + len(last)
+print("Formatted Output:")
+print("Name:", first.title(), last.title())
+print("Name Code:", first.upper(), last.upper())
+print("Section:", section.upper())
+print("Favorite Subject:", subject.title())
+print("Character Count:", count)
